@@ -7,6 +7,7 @@
          this.nom = nom;
          this.nbrPtsDegats = nbrPtsDegats;
          this.nbrPtsVie = nbrPtsVie;
+         System.out.println(this.types);
      }
 
      public String getNom() {

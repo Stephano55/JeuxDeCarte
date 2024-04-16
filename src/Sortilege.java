@@ -6,6 +6,7 @@ class Sortilege extends Carte {
         super(cout, types);
         this.nom = nom;
         this.explication = explication;
+        System.out.println(this.types);
     }
 
     public String getNom() {
