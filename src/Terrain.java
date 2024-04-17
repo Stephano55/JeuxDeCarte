@@ -1,8 +1,8 @@
  class Terrain extends Carte {
     private char couleur;
     //CONSTRUCTEUR
-    public Terrain(int cout, String type, char couleur){
-        super(0, type);
+    public Terrain( char couleur){
+        super("p",0);
         this.couleur = couleur;
 
     }

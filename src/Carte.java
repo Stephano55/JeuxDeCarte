@@ -1,26 +1,26 @@
 public class Carte {
-    protected String types;
-    protected int cout;
+    protected int types;
+    protected String cout;
     //CONSTRUCTEUR PAR DEFAUT
     public Carte(){
-        this.types = "Inconnue";
-        this.cout = 0;
+        this.types = 0;
+        this.cout = "Inconnue";
     }
     //CONSTRUCTEUR AVEC PARAMETRES
-    public Carte(int cout, String types){
+    public Carte(String cout, int types){
         this.types = types;
         this.cout = cout;
     }
     //GETTERS
-    public int getCout() {
+    public String getCout() {
         return cout;
     }
-    public String getTypes(){return types;}
+    public int getTypes(){return types;}
     //SETTERS
-    public void setCout(int cout) {
+    public void setCout(String cout) {
         this.cout = cout;
     }
-    public void setTypes(String types) {
+    public void setTypes(int types) {
         this.types = types;
     }
     public void afficher(){
