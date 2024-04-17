@@ -7,7 +7,6 @@
          this.nom = nom;
          this.nbrPtsDegats = nbrPtsDegats;
          this.nbrPtsVie = nbrPtsVie;
-         System.out.println(this.types);
      }
 
      public String getNom() {
@@ -28,5 +27,12 @@
      }
      public void setNbrPtsVie(int nbrPtsVie) {
          this.nbrPtsVie = nbrPtsVie;
+     }
+     @Override
+     public void afficher(){
+         super.afficher();
+         System.out.println("nom = "+this.nom);
+         System.out.println("nombres de points de dégats= "+this.nbrPtsDegats);
+         System.out.println("nombre de points de vie = "+this.nbrPtsVie);
      }
  }

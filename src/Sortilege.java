@@ -22,4 +22,11 @@ class Sortilege extends Carte {
     public void setExplication(String explication) {
         this.explication = explication;
     }
+
+    @Override
+    public void afficher() {
+        super.afficher();
+        System.out.println("nom= "+this.nom);
+        System.out.println("explication= "+this.explication);
+    }
 }

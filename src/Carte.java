@@ -23,4 +23,7 @@ public class Carte {
     public void setTypes(String types) {
         this.types = types;
     }
+    public void afficher(){
+        System.out.println("type = "+types+"\ncout = "+cout);
+    }
 }
